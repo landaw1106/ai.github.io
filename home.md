@@ -1,8 +1,8 @@
-- [Home](/home)
-- [Lectures](/lectures)
-- [Projects](/projects)
-- [Schedule](/schedule)
-- [Resources](/resources)
+- [Home](/dairs/home)
+- [Lectures](/dairs/lectures)
+- [Projects](/dairs/projects)
+- [Schedule](/dairs/schedule)
+- [Resources](/dairs/resources)
 
 ![DAIRS.png]({{site.baseurl}}/DAIRS.png)
 
