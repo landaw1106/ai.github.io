@@ -1,5 +1,6 @@
+   
 ![DAIRS.png]({{site.baseurl}}/DAIRS.png)
-
+   
 ## Welcome to Dunn School Artificial Intelligence & Robotics Society!
 The mission of our club is to bring knowledge about Artificial Intelligence and Robotics to Dunn, so that the community has an opportunity to participate in the relating topics.
 
