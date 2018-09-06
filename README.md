@@ -1,1 +1,1 @@
-<b>Dunn School Artificial Intelligence & Robotics Society (AIRS) Website</b>
+<b>Dunn School Artificial Intelligence & Robotics Society (DAIRS) Official Website</b>
