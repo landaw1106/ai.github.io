@@ -1,0 +1,5 @@
+- [Home](/home)
+- [Lectures](/lectures)
+- [Projects](/projects)
+- [Schedule](/schedule)
+- [Resources](/resources)
