@@ -1,7 +1,7 @@
-- [Home](https://landaw1106.github.io/dairs/home)
-- [Lectures](https://landaw1106.github.io/dairs/lectures)
-- [Resources](https://landaw1106.github.io/dairs/resources)
-- [Schedule](https://landaw1106.github.io/dairs/schedule)
+- [Home](/home)
+- [Lectures](/lectures)
+- [Resources](/resources)
+- [Schedule](/schedule)
 
 ![DAIRS.png]({{site.baseurl}}/DAIRS.png)
 
