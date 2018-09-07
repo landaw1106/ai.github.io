@@ -1,3 +1,6 @@
+---
+redirect_from: "/dairs/"
+---
 - [Home](/dairs/home)
 - [Lectures](/dairs/lectures)
 - [Projects](/dairs/projects)
