@@ -1,5 +1,5 @@
 ---
-redirect_from: "/dairs/"
+redirect_from: "/dairs/index.html"
 ---
 - [Home](/dairs/home)
 - [Lectures](/dairs/lectures)
