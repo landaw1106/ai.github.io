@@ -1,5 +1,0 @@
-- [Home](/dairs/home)
-- [Lectures](/dairs/lectures)
-- [Projects](/dairs/projects)
-- [Schedule](/dairs/schedule)
-- [Resources](/dairs/resources)
