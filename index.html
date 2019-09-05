@@ -4,41 +4,78 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
   <title>AIRS</title>
 </head>
 <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="resources.html">Resources</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown link
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="learn-more.html">About Us</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
     <div class="jumbotron">
-        <h1 class="display-2 text-info font-weight-bold">AIRS</h1>
+        <h1 class="display-2 font-weight-bold"><a class="text-info" href="index.html" style="text-decoration: none;">AIRS</a></h1>
         <h1 class="display-7 text-secondary">Artificial Intelligence and Robotics Society</h1>
         <p class="lead">Welcome to the AIRS official website!<br>The mission of our club is to promote STEM-related topics such as artificial intelligence, robotics, and 3D printing, and open doors for everyone to the new age of technology.</p>
         <p class="lead">
-                <a class="btn btn-primary btn-lg" href="learn-more.html" role="button">Learn more</a>
+            <a class="btn btn-primary btn-lg" href="learn-more.html" role="button">Learn more</a>
         </p>
-        <hr class="my-4">
+    </div>
+    <div class="container">
         <!--youtube playlist-->
-        <div class="embed-responsive embed-responsive-16by9">
+        <h3 class="display-5 text-info">Video Playlist</h3>
+        <p><div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLV4wvVQg3Ij9fvFSC4PcYd4ln0jS3tGt7" allowfullscreen></iframe>
-        </div>
+        </div></p>
         <hr class="my-4">
         <!--feedback-->
-        <blockquote class="blockquote .bg-warning">
-                <p>What do you want to achieve in this club?</p>
-                <ul>
-                    <li>Learn to code</li>
-                    <li>Build a drone</li>
-                    <li>Using a 3D printer</li>
-                    <li>Build a website</li>
-                    <li>Create a phone app</li>
-                </ul>
-                </blockquote>
-                <p class="lead">
-                    <form class="form-inline">
-                        <div class="form-group mx-sm-3 mb-2">
-                            <input type="text" class="form-control" placeholder="I want to...">
-                        </div>
-                        <button type="submit" class="btn btn-secondary mb-2">Submit</button>
-                    </form>
-                </p>
+        <blockquote class="blockquote .bg-warning lead">
+            <p>What do you want to achieve in this club?</p>
+            <ul>
+                <li>Learn to code</li>
+                <li>Build a drone</li>
+                <li>Using a 3D printer</li>
+                <li>Build a website</li>
+                <li>Create a phone app</li>
+            </ul>
+        </blockquote>
+        <p class="lead">
+            <form class="form-inline">
+                <div class="form-group mx-sm-3 mb-2">
+                    <input type="text" class="form-control" placeholder="I want to...">
+                </div>
+                <button type="submit" class="btn btn-secondary mb-2">Submit</button>
+            </form>
+        </p>
+        <footer class="footer mt-auto py-3 text-center">
+            <div class="container">
+                <h3 class="display-5 text-secondary">Questions?</h3>
+                <p class="lead">Email me at <a href="mailto:allen_lin@student.dunnschool.org" target="_blank" class="text-danger">allen_lin@student.dunnschool.org</a>. Thanks!</p>
+            </div>
+        </footer>
     </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
