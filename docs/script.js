@@ -1,0 +1,15 @@
+function checkForm(form)
+{
+  // regular expression to match only alphanumeric characters and spaces
+  var re = /^[\w ]+$/;
+
+  // validation fails if the input doesn't match our regular expression
+  if (!re.test(form.feedback.value)) {
+    form.feedback.value = ""
+    form.feedback.focus();
+    return false;
+  }
+
+  // validation was successful
+  return true;
+}

@@ -14,7 +14,8 @@
   	<meta name="viewport" content="width=device-width">
   	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   	<link rel="stylesheet" href="styles.css">
-  	<title>AIRS</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  	<title>Home • AIRS</title>
 </head>
 <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
@@ -31,16 +32,19 @@
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown link
+                Projects
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="first-tech-challenge.html">FIRST Tech Challenge</a>
+                <a class="dropdown-item" href="cal-hacks.html">Cal Hacks</a>
+                <a class="dropdown-item" href="hack-nights.html">Hack Nights</a>
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="learn-more.html">About Us</a>
+                <a class="nav-link" href="learn-more.html">Lectures</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about-us.html">About Us</a>
             </li>
             </ul>
         </div>
@@ -55,10 +59,15 @@
         </p>
     </div>
     <div class="container">
-        <!--youtube playlist-->
-        <h3 class="display-5 text-info">Video Playlist</h3>
+        <!--youtube playlists-->
+        <h3 class="display-5"><a class="text-info" target="_blank" href="https://www.youtube.com/playlist?list=PLV4wvVQg3Ij9fvFSC4PcYd4ln0jS3tGt7" style="text-decoration: none;">Club Playlist</a></h3>
         <p><div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLV4wvVQg3Ij9fvFSC4PcYd4ln0jS3tGt7" allowfullscreen></iframe>
+        </div></p>
+        <h3 class="display-5"><a class="text-info" target="_blank" href="https://www.youtube.com/playlist?list=PLWocGv6faRxRhcsHcXHiTU03b23lTn3jz" style="text-decoration: none;">Daily Dose of Science & Tech</a></h3>
+        <p><div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://www.youtube.com/embed/OVe72eMY_pk" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLWocGv6faRxRhcsHcXHiTU03b23lTn3jz" allowfullscreen></iframe>
         </div></p>
         <hr class="my-4">
         <!--feedback-->
@@ -73,9 +82,9 @@
             </ul>
         </blockquote>
         <p class="lead">
-            <form class="form-inline">
+            <form class="form-inline" method="POST" onsubmit="return checkForm(this);">
                 <div class="form-group mx-sm-3 mb-2">
-                    <input type="text" class="form-control" placeholder="I want to...">
+                    <input type="text" class="form-control" name="feedback" placeholder="I want to..." value="" required="required">
                 </div>
                 <button type="submit" class="btn btn-secondary mb-2">Submit</button>
             </form>
@@ -90,5 +99,6 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
