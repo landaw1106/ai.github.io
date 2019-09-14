@@ -75,7 +75,8 @@
             </ul>
         </blockquote>
         <p class="lead">
-            <form class="form-inline" method="POST" onsubmit="if(checkForm(this)){processData(this);}">
+            <form class="form-inline" method="POST" action="https://formspree.io/allenlinsh@gmail.com" onsubmit="return checkForm(this)">
+                <input hidden type="text" name="name">
                 <div class="form-group mx-sm-3 mb-2">
                     <input type="text" class="form-control" name="feedback" placeholder="I want to..." value="" required="required">
                 </div>
