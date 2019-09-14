@@ -12,7 +12,7 @@
   	<title>Home • AIRS</title>
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark navbar-brand">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark navbar-brand" id="navbar">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -54,18 +54,18 @@
     </div>
     <div class="container">
         <!--youtube playlists-->
-        <h3 class="display-5"><a class="text-info" target="_blank" href="https://www.youtube.com/playlist?list=PLV4wvVQg3Ij9fvFSC4PcYd4ln0jS3tGt7" style="text-decoration: none;">Club Playlist</a></h3>
-        <p><div class="embed-responsive embed-responsive-16by9">
+        <h2 class="display-5 text-center"><a class="text-info" target="_blank" href="https://www.youtube.com/playlist?list=PLV4wvVQg3Ij9fvFSC4PcYd4ln0jS3tGt7" style="text-decoration: none;">Club Playlist</a></h2>
+        <p><div class="embed-responsive embed-responsive-16by9 bg-light">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLV4wvVQg3Ij9fvFSC4PcYd4ln0jS3tGt7" allowfullscreen></iframe>
         </div></p>
-        <h3 class="display-5"><a class="text-info" target="_blank" href="https://www.youtube.com/playlist?list=PLWocGv6faRxRhcsHcXHiTU03b23lTn3jz" style="text-decoration: none;">Daily Dose of Science & Tech</a></h3>
-        <p><div class="embed-responsive embed-responsive-16by9">
+        <h2 class="display-5 text-center"><a class="text-info" target="_blank" href="https://www.youtube.com/playlist?list=PLWocGv6faRxRhcsHcXHiTU03b23lTn3jz" style="text-decoration: none;">Science & Technology</a></h2>
+        <p><div class="embed-responsive embed-responsive-16by9 bg-light">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLWocGv6faRxRhcsHcXHiTU03b23lTn3jz" allowfullscreen></iframe>
         </div></p>
         <hr class="my-4">
         <!--feedback-->
-        <blockquote class="blockquote .bg-warning lead">
-            <p>What do you want to achieve in this club?</p>
+        <blockquote class="blockquote lead">
+            <p class="text-primary"><strong>What do you want to achieve in this club?</strong></p>
             <ul>
                 <li>Learn to code</li>
                 <li>Build a drone</li>
@@ -76,7 +76,6 @@
         </blockquote>
         <p class="lead">
             <form class="form-inline" method="POST" action="https://formspree.io/allenlinsh@gmail.com" onsubmit="return checkForm(this)">
-                <input hidden name="_next" value="https://landaw1106.github.io/airs/">
                 <div class="form-group mx-sm-3 mb-2">
                     <input type="text" class="form-control" name="feedback" placeholder="I want to..." value="" required="required">
                 </div>
