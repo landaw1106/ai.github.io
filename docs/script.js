@@ -13,3 +13,10 @@ function checkForm(form)
   // validation was successful
   return true;
 }
+
+function processData(form) {
+  var data = form.feedback.value;
+  firebase.database().ref('feedbacks/' + data).set({
+    feedback: data
+  });
+}
