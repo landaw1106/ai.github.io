@@ -1,3 +1,11 @@
 #navbar {
     margin-right: 0;
 }
+
+a.navlink {
+    opacity:0.6;
+}
+
+a.navlink:hover {
+    opacity:1;
+}
