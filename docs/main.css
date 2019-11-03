@@ -95,13 +95,13 @@ dd.col-sm-9.lead {
 }
 
 h3.lead.text-center {
-    font-size:25pt;
+    font-size:16pt;
     margin-top:auto;
     margin-bottom:auto;
 }
 
-.card {
-    padding: 1%;
+a.card {
+    padding: 0.5%;
     border: 0;
 
 }
@@ -117,4 +117,13 @@ a.text-white {
 
 div.embed-responsive.bg-light {
     border-radius: 10px;
+}
+
+img.discord-widget {
+    border-radius: 10px;
+    width: auto;
+}
+
+div.discord {
+    text-align: center;
 }
