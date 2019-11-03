@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <title>About Us • AIRS</title>
+    <title>FIRST Tech Challenge • AIRS</title>
 </head>
 <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark navbar-brand" id="navbar">
@@ -22,22 +22,22 @@
                 <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item px-1">
-                <a class="nav-link" href="resources.html">Resources</a>
+                <a class="nav-link" href="resources.html">Resources</span></a>
             </li>
-            <li class="nav-item dropdown px-1">
+            <li class="nav-item dropdown active px-1">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Projects
+                Projects <span class="sr-only">(current)
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="ftc.html">FIRST Tech Challenge</a>
-                <a class="dropdown-item" href="hack-nights.html">Hack Nights</a>
+                <a class="dropdown-item " href="hack-nights.html">Hack Nights</a>
                 </div>
             </li>
             <li class="nav-item px-1">
                 <a class="nav-link" href="lectures.html">Lectures</a>
             </li>
-            <li class="nav-item active px-1">
-                <a class="nav-link" href="about-us.html">About Us <span class="sr-only">(current)</span></a>
+            <li class="nav-item px-1">
+                <a class="nav-link" href="about-us.html">About Us</a>
             </li>
             </ul>
         </div>
@@ -52,8 +52,71 @@
         </p>
     </div>
     <div class="container">
-        <h3 class="display-4 text-light bg-warning">Our Mission</h3>
-        <p class="lead" style="text-align: justify;">Cutting-edge technologies that involve artificial intelligence and robotics are emerging these years. Companies such as Google, IBM, Microsoft, Boston Dynamics, Uber, and Autodesk are all contributing to the frontier of science and technology. However, this branch of science should not be limited to the research industry. The mission of our club is to educate high school students about artificial intelligence and robotics and help students develop innovative engineering skills.</p>
+        <!-- discord widget -->
+        <p><div class="embed-responsive embed-responsive-16by9 bg-light">
+            <iframe src="https://discordapp.com/widget?id=639980221269016588&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+        </div></p>
+        <!--links-->
+        <h3 class="display-4 bg-dark text-white">General</h3>
+        <dl class="row">
+            <a class="col-sm-3 lead border rounded text-dark" href="https://ftcforum.usfirst.org/forum" target="_blank">FTC Forum</a>
+            <dd class="col-sm-9 lead">Forum for questions, comments and suggestions around the FIRST Tech Challenge.</dd>
+        </dl>
+        <!-- files -->
+        <div class="accordion" id="accordionGeneral">
+            <a class="card text-dark" style="text-decoration: none; display:block;" href="#collapseOPGD" data-toggle="collapse">
+                <div class="card-header" id="headingOPGD">
+                    <h3 class="lead text-center">One Page Game Description</h3>
+                </div>
+                <div class="collapse embed-responsive embed-responsive-21by9 bg-light" id="collapseOPGD" data-parent="#accordionGeneral">
+                    <div class="card-body">
+                        <object data="https://firstinspiresst01.blob.core.windows.net/ftc/2020/gbrm-neo-pg.pdf" type="application/pdf"></object>
+                    </div>
+                </div>
+            </a>
+            <a class="card text-dark" style="text-decoration: none; display:block;" href="#collapseLIPL" data-toggle="collapse">
+                <div class="card-header" id="headingLIPL">
+                    <h3 class="lead text-center">Legal and Illegal Parts List</h3>
+                </div>
+                <div class="collapse embed-responsive embed-responsive-21by9 bg-light" id="collapseLIPL" data-parent="#accordionGeneral">
+                    <div class="card-body">
+                        <object data="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/legal-illegal-parts-list.pdf" type="application/pdf"></object>
+                    </div>
+                </div>
+            </a>    
+            <a class="card text-dark" style="text-decoration: none; display:block;" href="#collapseNT" data-toggle="collapse">
+                <div class="card-header" id="headingNT">
+                    <h3 class="lead text-center">Navigation Targets</h3>
+                </div>
+                <div class="collapse embed-responsive embed-responsive-21by9 bg-light" id="collapseNT" data-parent="#accordionGeneral">
+                    <div class="card-body" >
+                        <object data="https://firstinspiresst01.blob.core.windows.net/ftc/2020/igation-gets-us.pdf" type="application/pdf"></object>
+                    </div>
+                </div>
+            </a>
+            <a class="card text-dark" style="text-decoration: none; display:block;" href="#collapseAMT" data-toggle="collapse">
+                <div class="card-header" id="headingAMT">
+                    <h3 class="lead text-center" style="font-size:25pt">Alliance Marker Template</h3>
+                </div>
+                <div class="collapse embed-responsive embed-responsive-21by9 bg-light" id="collapseAMT" data-parent="#accordionGeneral">
+                    <div class="card-body" >
+                        <object data="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/alliance-marker-template.pdf" type="application/pdf"></object>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <h3 class="display-4 bg-dark text-white">Engineering</h3>
+        <dl class="row">
+
+        </dl>
+        <h3 class="display-4 bg-dark text-white">Programming</h3>
+        <dl class="row">
+
+        </dl>
+        <h3 class="display-4 bg-dark text-white">Management</h3>
+        <dl class="row">
+
+        </dl>
         <hr class="my-4">
         <!--feedback-->
         <blockquote class="blockquote .bg-warning lead">

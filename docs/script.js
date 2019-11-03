@@ -1,15 +1,9 @@
-function checkForm(form)
-{
-  // regular expression to match only alphanumeric characters and spaces
-  var re = /^[\w ]+$/;
-
-  // validation fails if the input doesn't match our regular expression
-  if (!re.test(form.feedback.value)) {
-    form.feedback.value = ""
-    form.feedback.focus();
-    return false;
-  }
-
-  // validation was successful
-  return true;
-}
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5dbef58c154bf74666b742c5/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
