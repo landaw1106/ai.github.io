@@ -9,3 +9,27 @@ a.navlink {
 a.navlink:hover {
     opacity:1;
 }
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+#sheets {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#pdf {
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: auto;
+}
