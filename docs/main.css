@@ -20,7 +20,6 @@ a.navlink:hover {
 }
 
 #sheets {
-    width: 75%;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -90,7 +89,7 @@ a.col-sm-3.lead.border.rounded:hover:before {
 dd.col-sm-9.lead {
     margin-top: auto;
     margin-bottom: auto;
-    padding:1%;
+    padding:1.5%;
     text-align: justify;
     font-size: 14pt;
 }
@@ -99,18 +98,19 @@ h3.lead.text-center {
     font-size:18pt;
     margin-top:auto;
     margin-bottom:auto;
+    padding: 0.5% 0;
 }
 
 a.card {
-    padding: 0.5%;
+    padding: 0.5% 0;
     border: 0;
-
 }
 
 h3.display-4 {
     border-radius: 25px;
     font-size: 28pt;
     text-align: center;
+    margin: 0 auto;
 }
 
 a.text-white {
@@ -121,22 +121,10 @@ div.embed-responsive.bg-light {
     border-radius: 10px;
 }
 
-img.discord-widget {
-    border-radius: 10px;
-    width: 278pt;
-}
-@media only screen and (min-width: 961px) {
-    iframe.col-sm-8 {
-        padding-left: 0;
-    }
+div.card-header {
+    border: none;
 }
 
-@media only screen and (max-width: 400px) {
-    a.discord.col-sm-3 {
-        padding: 0 auto;
-    }
-    iframe.col-sm-8 {
-        padding: 0 auto;
-        height: 20em;
-    }
-  }
+dl.row {
+    padding: 0.5% 0;
+}
